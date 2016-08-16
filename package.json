@@ -1,6 +1,6 @@
 {
   "name": "webpack-env-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "webpack环境搭建",
   "main": "index.js",
   "scripts": {
