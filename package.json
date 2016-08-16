@@ -4,8 +4,23 @@
   "description": "webpack环境搭建",
   "main": "index.js",
   "scripts": {
+    "start": "webpack-dev-server --hot --inline --content-base dist/",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Pyang",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "css-loader": "^0.23.1",
+    "html-webpack-plugin": "^2.22.0",
+    "open-browser-webpack-plugin": "0.0.2",
+    "sass-loader": "^4.0.0",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "dependencies": {
+    "express": "^4.14.0",
+    "html-webpack-plugin": "^2.22.0"
+  }
 }
